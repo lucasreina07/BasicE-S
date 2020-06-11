@@ -1,0 +1,4 @@
+CopyCharacterses muy similar al CopyBytes. 
+La diferencia más importante es que CopyCharactersusa FileReadery FileWriterpara entrada y salida en lugar de FileInputStreamy FileOutputStream. 
+Tenga en cuenta que tanto CopyBytesy CopyCharactersutilizan una intvariable para leer y escribir a partir de.
+Sin embargo, en CopyCharacters, la intvariable contiene un valor de carácter en sus últimos 16 bits; en CopyBytes, la intvariable tiene un bytevalor en sus últimos 8 bits.
